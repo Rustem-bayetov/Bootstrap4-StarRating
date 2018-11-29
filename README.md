@@ -32,8 +32,7 @@ Use Html attributes to set up your control
 * data-max - Maximum stars
 * data-step - Increment step 
 * disabled - Disable your control
-* Read-only - Set your control in read-only state. 
-* data-showcaption=false - To switch off the caption (it on by default)
+* data-showcaption=false - To switch off the caption (it switched on by default)
 
 ## Thanks to
 Thanks to anirudhabhowmik for his component https://bootsnipp.com/snippets/lVqo2
