@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# Pure Bootstrap, Font-awesome and JQuery Star Ranking Control
 
-You can use the [editor on GitHub](https://github.com/Rustem-bayetov/Bootstrap4-StarRanking/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Star Ranking control is a JavaScript powered based on JQuery simply to use control. It using HTML 5 data attributes to set up.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Image](https://rustem-bayetov.github.io/Bootstrap4-StarRanking/Preview.jpg)
 
-### Markdown
+See the [Star Ranking control in action](https://rustem-bayetov.github.io/Bootstrap4-StarRanking)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Dependecies
+All of you need is:
+* Use Bootstrap 4 
+* Add JQuery 
+* Use Fontawesome 
+``` 
+<!-- Copy it to head of page -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Usage
+Simply add code below where you want
 
-### Jekyll Themes
+```
+<input id="input-1" name="input-1" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="1" data-size="xs">
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rustem-bayetov/Bootstrap4-StarRanking/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Set it up
+Use Html attributes to set up your control
+* data-min - Minimum stars
+* data-max - Maximum stars
+* data-step - Increment step 
+* disabled - Disable your control
+* Read-only - Set your control in read-only state. 
+* data-showcaption=false - To switch off the caption (it on by default)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Thanks to
+Thanks to anirudhabhowmik for his component https://bootsnipp.com/snippets/lVqo2
+I just unlink it from bootstrap 3 and made some changes.
