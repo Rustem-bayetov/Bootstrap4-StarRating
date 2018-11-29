@@ -8,28 +8,28 @@
 	<div class="container"> 
 		<h3>Rate</h3>
 		<div class="pt-3">
-			<input id="input-2" name="input-2" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="2" data-size="sm">
+			<input id="input-2" name="input-2" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="2" data-size="md">
 		</div>
 	</div>
 
 	<div class="container pt-5"> 
 		<h3>Without caption</h3>
 		<div class="pt-3">
-			<input id="input-2" name="input-2" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="2" data-size="sm" data-showcaption=false>
+			<input id="input-2" name="input-2" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="2" data-size="md" data-showcaption=false>
 		</div>
 	</div>
 	
 	<div class="container pt-5"> 
 		<h3>Rating view</h3>
 		<div class="pt-3">
-			<input id="input-2" name="input-2" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="2" data-size="sm" disabled>
+			<input id="input-2" name="input-2" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="2" data-size="md" disabled>
 		</div>
 	</div>
 
 	<div class="container pt-5"> 
 		<h3>Sizing</h3>
 		<div class="pt-3">
-			<input id="input-1" name="input-1" class="rating rating-loading" data-min="5" data-max="10" data-step="1" value="1" data-size="xs">
+			<input id="input-1" name="input-1" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="1" data-size="xs">
 		</div>
 		<div class="pt-3">
 			<input id="input-2" name="input-2" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="2" data-size="sm">
@@ -59,7 +59,8 @@
         vertical-align:middle;
         display:inline-block;
         overflow:hidden;
-        white-space:nowrap
+        white-space:nowrap;
+		line-height: 1.5em !important;
     }
     .rating-container .rating-input {
 		position:absolute;
@@ -80,6 +81,12 @@
         display:inline-block;
         margin:0 3px;
         text-align:center
+    }
+	.rating-container .star .far {
+        line-height: 1.5;
+    }
+	.rating-container .star .fas {
+        line-height: 1.5;
     }
     .rating-container .empty-stars{
         color:#aaa
@@ -119,25 +126,24 @@
 
     }
     .rating-xl{
-        font-size:3.89em
+		font-size:2.6em
+	}
 
-    }
-    .rating-lg{
-        font-size:2.91em
+	.rating-lg{
+		font-size:2.0em
+	}
 
-    }
-    .rating-md{
-        font-size:2.13em
+	.rating-md{
+		font-size:1.5em
+	}
 
-    }
-    .rating-sm{
-        font-size:1.5em
+	.rating-sm{
+		font-size:1em
+	}
 
-    }
-    .rating-xs{
-        font-size:1em
-
-    }
+	.rating-xs{
+		font-size:0.7em
+	}
     .rating-container .clear-rating{
 		display: none;
         color:#aaa;
