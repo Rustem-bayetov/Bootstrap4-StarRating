@@ -1,10 +1,10 @@
-# Pure Bootstrap, Font-awesome and JQuery Star Ranking Control
+# Pure Bootstrap, Font-awesome and JQuery Star Rating Control
 
-Star Ranking control is a JavaScript powered based on JQuery simply to use control. It using HTML 5 data attributes to set up.
+Star Rating control is a JavaScript powered based on JQuery simply to use control. It using HTML 5 data attributes to set up.
 
-![Image](https://rustem-bayetov.github.io/Bootstrap4-StarRanking/Preview.jpg)
+![Image](https://rustem-bayetov.github.io/Bootstrap4-StarRating/Preview.jpg)
 
-See the [Star Ranking control in action](https://rustem-bayetov.github.io/Bootstrap4-StarRanking)
+See the [Star Rating control in action](https://rustem-bayetov.github.io/Bootstrap4-StarRating)
 
 
 ## Dependecies
